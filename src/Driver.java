@@ -9,7 +9,7 @@ public class Driver {
 
         frame.getContentPane().add(new CruiserPanel());
 
-        frame.setPreferredSize(new Dimension(600,300));
+        frame.setPreferredSize(new Dimension(600,310));
         frame.pack();
         frame.setVisible(true);
     }

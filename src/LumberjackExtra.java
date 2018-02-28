@@ -12,10 +12,10 @@ public class LumberjackExtra extends ExtrasDecorator{
     }
 
     public double taxCost() {
-        return room.taxCost() + (PRICE*GRATUITY)*EXTRATAX;
+        return room.taxCost() + PRICE*EXTRATAX;
     }
 
-    public double gratuityDiscount(){
-        return room.gratuityDiscount()+(PRICE-(PRICE*GRATUITY));
+    public double gratuity(){
+        return room.gratuity()+(PRICE*EXTRATAX*GRATUITY-PRICE);
     }
 }

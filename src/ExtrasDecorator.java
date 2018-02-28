@@ -1,7 +1,6 @@
 public abstract class ExtrasDecorator extends Room {
 
-    final double EXTRATAX = 1.06;
-    final double GRATUITY = 0.85;
+    final protected double EXTRATAX = 1.06;
+    final protected double GRATUITY = 1.15;
 
-    public abstract double cost();
 }

@@ -10,7 +10,7 @@ public class SuiteRoom extends Room {
         return PRICE*ROOMTAX;
     }
 
-    public double gratuityDiscount(){
-        return PRICE-(PRICE*ROOMGRATUITY);
+    public double gratuity(){
+        return PRICE*ROOMGRATUITY-PRICE;
     }
 }

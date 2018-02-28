@@ -11,7 +11,7 @@ public class TEST {
         room2 = new ClimbingExtra(room2);
         System.out.println("TOTAL = "+room2.cost());
         System.out.println("TOTAL + TAX = "+room2.taxCost());
-        System.out.println("TOTAL GRATUITY = "+room2.gratuityDiscount());
+        System.out.println("TOTAL GRATUITY = "+room2.gratuity());
         System.out.println("TAX = "+(room2.taxCost()-room2.cost()));
     }
 }
